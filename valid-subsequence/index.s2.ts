@@ -9,7 +9,7 @@ export const calcValidSubsequence2 = (array: number[], sequence: number[]): bool
       }
 
       const elemA = array[indexA];
-      const elemB = array[indexB];
+      const elemB = sequence[indexB];
 
       if (elemA === elemB) {
         indexB++;
