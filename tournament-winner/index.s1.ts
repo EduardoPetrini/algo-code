@@ -1,10 +1,10 @@
 export const tournamentWinner = (competitions: string[][], results: number[]): string => {
     const size = competitions.length;
-    
+
     const competitors = new Map<string, number>();
 
     let globalWinner = '';
-    let biggerValue = 0;
+    competitors.set(globalWinner, 0);
 
     for (let index = 0; index < size; index++) {
         const matchResult = results[index];
@@ -20,11 +20,11 @@ export const tournamentWinner = (competitions: string[][], results: number[]): s
             value = 0;
         }
 
-        value++;
+        value += 3;
         competitors.set(winner, value);
-
-        if (value > biggerValue) {
-            biggerValue = value;
+        
+        const currentBigestValue = competitors.get(globalWinner) || 0
+        if (value > currentBigestValue) {
             globalWinner = winner;
         }
     }
