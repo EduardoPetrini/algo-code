@@ -1,6 +1,6 @@
 import { describe, it } from 'node:test';
 import assert from 'node:assert';
-import { BST } from './BST';
+import { BST } from '../lib/BST';
 import { findClosestValue } from './index.s1';
 
 

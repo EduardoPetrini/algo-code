@@ -1,4 +1,4 @@
-import { BST } from "./BST";
+import { BST } from "../lib/BST";
 
 
 const isCloser = (current: number, previous: number, target: number) => {
