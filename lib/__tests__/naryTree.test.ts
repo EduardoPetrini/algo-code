@@ -1,6 +1,6 @@
 import { describe, it } from 'node:test';
 import assert from 'node:assert';
-import { NaryTree } from './NaryTree';
+import { NaryTree } from '../NaryTree';
 
 describe('N-ary Tree', () => {
     it('should return a tree with name A and no children', () => {

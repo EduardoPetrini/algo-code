@@ -1,6 +1,6 @@
 import { describe, it } from 'node:test';
 import assert from 'node:assert';
-import { BST } from './BST';
+import { BST } from '../BST';
 
 describe('Test BST', () => {
     it('should create a BST with one root element', () => {

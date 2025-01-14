@@ -1,6 +1,6 @@
 import { describe, it } from 'node:test';
 import assert from 'node:assert';
-import { BinaryTree } from './BinaryTree';
+import { BinaryTree } from '../BinaryTree';
 
 describe('Binary Tree', () => {
     it('should create an instance with only one node in the root', () => {
