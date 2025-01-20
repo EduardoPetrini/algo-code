@@ -9,7 +9,6 @@ export const nthFibonacciS2 = (n: number): number => {
     let index = 2;
 
     while (index < n) {
-        console.log(previous)
         const temp = previous[0];
         previous[0] = previous[1];
         previous[1] = temp + previous[1];
