@@ -18,4 +18,8 @@ describe('runLengthEncode', () => {
     it('should encode a string with no repeating characters', () => {
         assert.equal(runLengthEncode('abcd'), '1a1b1c1d');
     });
+    
+    it('should encode a string with 10 letters not repeating more than 3 times', () => {
+        assert.equal(runLengthEncode('aaabbbcccd'), '3a3b3c1d');
+    });
 });
