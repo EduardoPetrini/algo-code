@@ -24,6 +24,7 @@ A TypeScript repository containing implementations of various algorithms and dat
 | Palindrome Check | Determines if a given string is a palindrome (reads the same forwards and backwards). | O(n) |
 | Product Sum | Calculates the sum of elements in a special array where nested arrays are multiplied by their depth. | O(n) |
 | Remove Duplicates | Removes duplicate values from a sorted linked list in-place. | O(n) |
+| Run Length Encode | Compresses strings by counting consecutive characters (e.g., 'aabcccaa' becomes '2a1b3c2a'). | O(n) |
 | Selection Sort | Sorts an array by repeatedly finding the minimum element from the unsorted portion and placing it at the beginning. | O(n²) |
 | Sorted Squared Array | Returns a sorted array of squared numbers from a sorted input array. | O(n) |
 | Tournament Winner | Determines the winner of a tournament based on competition results. | O(n) |
@@ -37,24 +38,30 @@ A TypeScript repository containing implementations of various algorithms and dat
 .
 ├── binarySearch/
 ├── branch-sums/
+├── bubble-sort/
+├── Caesar-chipher-encryptor/
 ├── class-photos/
 ├── closest-value-in-bst/
 ├── depth-first-search/
 ├── expression-tree/
+├── insertion-sort/
 ├── largest-three/
+├── lib/ # Shared data structures
 ├── middle-node/
 ├── minimum-waiting-time/
 ├── node-depths/
 ├── nth-fibonacci/
 ├── optimal-freelancing/
+├── palindrome-check/
 ├── productSum/
 ├── remove-duplicates-from-linked-list/
+├── run-length-encode/
+├── selection-sort/
 ├── sorted-squared-array/
 ├── tournament-winner/
 ├── transpose-matrix/
 ├── two-sum/
-├── valid-subsequence/
-└── lib/                    # Shared data structures
+└── valid-subsequence/
 ```
 
 ## Getting Started
