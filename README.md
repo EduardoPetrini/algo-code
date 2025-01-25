@@ -10,6 +10,7 @@ A TypeScript repository containing implementations of various algorithms and dat
 | Branch Sums | Calculates the sum of all paths from root to leaf nodes in a binary tree. | O(n) |
 | Bubble Sort | Sorts an array by repeatedly stepping through it, comparing adjacent elements and swapping them if they're in the wrong order. | O(n²) |
 | Caesar Cipher Encryptor | Encrypts a string by shifting each character by a given key value in the alphabet. | O(n) |
+| Common Characters | Finds characters that appear in all strings of an array of strings. | O(n * m) |
 | Class Photos | Arranges students in two rows (blue/red shirts) based on height constraints. | O(n log n) |
 | Closest Value in BST | Finds the closest value to a target number in a Binary Search Tree. | O(log n) average, O(n) worst |
 | Depth First Search | Implements DFS traversal on an N-ary tree, returning node names in traversal order. | O(v + e) |
@@ -40,6 +41,7 @@ A TypeScript repository containing implementations of various algorithms and dat
 ├── branch-sums/
 ├── bubble-sort/
 ├── Caesar-chipher-encryptor/
+├── common-characters/
 ├── class-photos/
 ├── closest-value-in-bst/
 ├── depth-first-search/
