@@ -15,6 +15,7 @@ A TypeScript repository containing implementations of various algorithms and dat
 | Closest Value in BST | Finds the closest value to a target number in a Binary Search Tree. | O(log n) average, O(n) worst |
 | Depth First Search | Implements DFS traversal on an N-ary tree, returning node names in traversal order. | O(v + e) |
 | Expression Tree | Binary tree implementation for evaluating mathematical expressions. Supports operations (+, -, *, /). | O(n) |
+| First Non-Repeating Character | Finds the first non-repeating character in a string using both hash map approaches. | O(n) |
 | Generate Document | Determines if a document can be generated using a collection of available characters. | O(n + m) |
 | Insertion Sort | Builds the final sorted array one item at a time by repeatedly inserting a new element into a sorted portion of the array. | O(n²) |
 | Largest Three | Returns the three largest numbers from an array in descending order. | O(n) |
@@ -47,6 +48,7 @@ A TypeScript repository containing implementations of various algorithms and dat
 ├── closest-value-in-bst/
 ├── depth-first-search/
 ├── expression-tree/
+├── first-non-repeating-char/
 ├── generate-document/
 ├── insertion-sort/
 ├── largest-three/
