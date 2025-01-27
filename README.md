@@ -2,7 +2,7 @@
 
 A TypeScript repository containing implementations of various algorithms and data structures, with comprehensive test coverage.
 
-## Implemented Algorithms (24)
+## Implemented Algorithms (28)
 
 | Algorithm | Description | Time Complexity |
 |-----------|-------------|-----------------|
