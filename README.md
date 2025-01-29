@@ -2,7 +2,7 @@
 
 A TypeScript repository containing implementations of various algorithms and data structures, with comprehensive test coverage.
 
-## Implemented Algorithms (28)
+## Implemented Algorithms (30)
 
 | Algorithm | Description | Time Complexity |
 |-----------|-------------|-----------------|
@@ -10,9 +10,9 @@ A TypeScript repository containing implementations of various algorithms and dat
 | Branch Sums | Calculates the sum of all paths from root to leaf nodes in a binary tree. | O(n) |
 | Bubble Sort | Sorts an array by repeatedly stepping through it, comparing adjacent elements and swapping them if they're in the wrong order. | O(n²) |
 | Caesar Cipher Encryptor | Encrypts a string by shifting each character by a given key value in the alphabet. | O(n) |
-| Common Characters | Finds characters that appear in all strings of an array of strings. | O(n * m) |
 | Class Photos | Arranges students in two rows (blue/red shirts) based on height constraints. | O(n log n) |
 | Closest Value in BST | Finds the closest value to a target number in a Binary Search Tree. | O(log n) average, O(n) worst |
+| Common Characters | Finds characters that appear in all strings of an array of strings. | O(n * m) |
 | Depth First Search | Implements DFS traversal on an N-ary tree, returning node names in traversal order. | O(v + e) |
 | Expression Tree | Binary tree implementation for evaluating mathematical expressions. Supports operations (+, -, *, /). | O(n) |
 | First Non-Repeating Character | Finds the first non-repeating character in a string using both hash map approaches. | O(n) |
@@ -29,7 +29,9 @@ A TypeScript repository containing implementations of various algorithms and dat
 | Remove Duplicates | Removes duplicate values from a sorted linked list in-place. | O(n) |
 | Run Length Encode | Compresses strings by counting consecutive characters (e.g., 'aabcccaa' becomes '2a1b3c2a'). | O(n) |
 | Selection Sort | Sorts an array by repeatedly finding the minimum element from the unsorted portion and placing it at the beginning. | O(n²) |
+| Semordnilap | Finds pairs of strings that are palindromes of each other (read the same forwards and backwards). | O(n * m) |
 | Sorted Squared Array | Returns a sorted array of squared numbers from a sorted input array. | O(n) |
+| Three Sum | Finds all triplets in an array that sum up to a target value. | O(n²) |
 | Tournament Winner | Determines the winner of a tournament based on competition results. | O(n) |
 | Transpose Matrix | Transposes a matrix (converts rows to columns and vice versa). | O(n × m) |
 | Two Sum | Finds two numbers in an array that add up to a target sum. Two implementations: brute force O(n²) and optimized hash map O(n). | O(n) |
@@ -43,9 +45,9 @@ A TypeScript repository containing implementations of various algorithms and dat
 ├── branch-sums/
 ├── bubble-sort/
 ├── Caesar-chipher-encryptor/
-├── common-characters/
 ├── class-photos/
 ├── closest-value-in-bst/
+├── common-characters/
 ├── depth-first-search/
 ├── expression-tree/
 ├── first-non-repeating-char/
@@ -63,7 +65,9 @@ A TypeScript repository containing implementations of various algorithms and dat
 ├── remove-duplicates-from-linked-list/
 ├── run-length-encode/
 ├── selection-sort/
+├── semordnilap/
 ├── sorted-squared-array/
+├── three-sum/
 ├── tournament-winner/
 ├── transpose-matrix/
 ├── two-sum/
