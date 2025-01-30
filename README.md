@@ -2,7 +2,7 @@
 
 A TypeScript repository containing implementations of various algorithms and data structures, with comprehensive test coverage.
 
-## Implemented Algorithms (30)
+## Implemented Algorithms (31)
 
 | Algorithm | Description | Time Complexity |
 |-----------|-------------|-----------------|
@@ -30,6 +30,7 @@ A TypeScript repository containing implementations of various algorithms and dat
 | Run Length Encode | Compresses strings by counting consecutive characters (e.g., 'aabcccaa' becomes '2a1b3c2a'). | O(n) |
 | Selection Sort | Sorts an array by repeatedly finding the minimum element from the unsorted portion and placing it at the beginning. | O(n²) |
 | Semordnilap | Finds pairs of strings that are palindromes of each other (read the same forwards and backwards). | O(n * m) |
+| Smallest Difference | Finds a pair of numbers (one from each array) with the smallest absolute difference. | O(n log n) |
 | Sorted Squared Array | Returns a sorted array of squared numbers from a sorted input array. | O(n) |
 | Three Sum | Finds all triplets in an array that sum up to a target value. | O(n²) |
 | Tournament Winner | Determines the winner of a tournament based on competition results. | O(n) |
@@ -66,6 +67,7 @@ A TypeScript repository containing implementations of various algorithms and dat
 ├── run-length-encode/
 ├── selection-sort/
 ├── semordnilap/
+├── smallest-difference/
 ├── sorted-squared-array/
 ├── three-sum/
 ├── tournament-winner/
